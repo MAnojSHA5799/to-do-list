@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.task-text {
+  word-break: break-word;
+}
+
+/* Responsive spacing */
+@media (max-width: 576px) {
+  .todo-container {
+    padding: 10px;
+  }
+
+  .btn-sm {
+    margin-top: 5px;
+  }
+}
